@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+  <g id="ic-tel" transform="translate(-20 -292)">
+    <g id="phone-receiver-silhouette" transform="translate(20.128 292)">
+      <path id="Path_80" data-name="Path 80" d="M15.968,12.7c-1.1-.942-2.22-1.513-3.309-.572l-.65.569c-.476.413-1.36,2.342-4.778-1.59S5.848,6.563,6.324,6.154l.653-.569c1.083-.943.674-2.131-.107-3.353L6.4,1.491C5.615.272,4.761-.529,3.675.413L3.089.925A5.506,5.506,0,0,0,.942,4.569c-.392,2.59.844,5.555,3.673,8.809s5.593,4.89,8.214,4.862a5.521,5.521,0,0,0,3.905-1.617l.589-.513c1.083-.941.41-1.9-.693-2.844Z" transform="translate(0 0)" fill="#1f89cd"/>
+    </g>
+    <rect id="Rectangle_155" data-name="Rectangle 155" width="19" height="19" transform="translate(20 292)" fill="none"/>
+  </g>
+</svg>

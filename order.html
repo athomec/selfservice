@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <title>好點POS | 就是好點</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2.88">
+    <meta name="keywords" content="好點POS,就是好點,POS,POS機">
+    <meta name="description" content="好點POS | 就是好點" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta property="og:site_name" content="image.png" />
+    <meta property="og:image" content="assets/images/fb-img.png" />
+    <!--分享設定-->
+    <link rel="icon" href="assets/images/favicon.png" type="image/ico" />
+    <!--iconfont設定-->
+    <link rel="stylesheet" href="assets/style/all.css">
+    <!--css設定-->
+</head>
+
+	<body id="all" data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-root-margin="0px 0px -50%"
+	data-bs-smooth-scroll="true" tabindex="0">
+		<div id="loading" class="loading bg-white rounded-lg" style="display:none;">
+			<img src="./assets/images/loading.gif" alt="loading">
+		</div>
+		<div class="wrapper"><!--放大內容-->
+		<!--訊息視窗開始-->
+<div class="modal fade" id="message" data-bs-keyboard="false" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title font-smd font-light" id="staticBackdropLabel">確認結帳</h2>
+            </div>
+            <div class="modal-body p-3">
+                <p class="text-center">
+                    現在即將導向支付畫面
+                </p>
+
+            </div>
+            <div class="modal-footer pt-0 pb-3 px-3 px-sm-5">
+                <button type="button" class="modal-action btn btn-dark-gray700 py-2 me-3"
+                    data-bs-dismiss="modal">取消</button>
+                <button type="button" class="modal-action btn btn-dark-alert-color py-2"
+                    data-bs-dismiss="modal" onclick="window.location.href='check.html'">確認</button>
+            </div>
+        </div>
+    </div>
+</div>
+			<!--頁面開始-->
+
+					<header class="header">
+	<h1 class="header-title mb-0">
+		墨西哥辣肉醬筆管麵
+		<button class="header-btn btn" onclick="window.location.href='index.html'">
+			<img src="./assets/images/ic-close.svg" alt="關閉">
+		</button>
+	</h1>
+</header>
+<!--內容區塊開始-->
+<main class="main" data-con="page">
+	<div class="container">
+		<div class="main-pic mb-2">
+			<img src="./assets/images/demo-p3.jpg" alt="商品照片">
+		</div>
+		<p class="mb-2">
+			墨西哥辣肉醬使用大量蔬菜、辛香料，與黑豬絞肉一同細細熬煮。辛香料開胃、墨西哥辣椒爽辣！特別適合炎熱夏季。輕飯盒搭配 3～4 種配菜，經典餐盒 增加了清炒時蔬，菜量更豐富。
+		</p>
+		<div class="d-flex mb-2">
+			<p class="ms-auto primary-color font-md font-bold">NT$155</p>
+		</div>
+		<h2 class="subtitle">辣度調整<span class="ms-2">(必選)</span></h2>
+		<ul class="nav detail-list p-0 mb-5">
+			<li class="detail-list-item">
+				<button class="btn detail-list-btn active" data-bs-toggle="tab" type="button">
+					<p>不辣</p><span>+ NT$0</span>
+				</button>
+			</li>
+			<li class="detail-list-item">
+				<button class="btn detail-list-btn" data-bs-toggle="tab" type="button">
+					<p>小辣</p><span>+ NT$0</span>
+				</button>
+			</li>
+			<li class="detail-list-item">
+				<button class="btn detail-list-btn" data-bs-toggle="tab" type="button">
+					<p>大辣</p><span>+ NT$0</span>
+				</button>
+			</li>
+		</ul>
+
+		<h2 class="subtitle">起司加量<span class="ms-2">(可選)</span></h2>
+		<ul class="nav detail-list p-0 mb-5 js-toggle-btn">
+			<li class="detail-list-item">
+				<button class="btn detail-list-btn" type="button">
+					<p>雙色起司加量</p><span>+ NT$20</span>
+				</button>
+			</li>
+			<li class="detail-list-item">
+				<button class="btn detail-list-btn" type="button">
+					<p>雙色起司加量</p><span>+ NT$20</span>
+				</button>
+			</li>
+			<li class="detail-list-item">
+				<button class="btn detail-list-btn" type="button">
+					<p>雙色起司加量</p><span>+ NT$20</span>
+				</button>
+			</li>
+		</ul>
+		<div class="input-group number-form mb-3">
+			<button class="btn btn-dark-primary-color" type="button">
+				<img src="./assets/images/ic-minus.svg" alt="減少">
+			</button>
+			<input type="text" class="form-control text-center" value="1">
+			<button class="btn btn-dark-primary-color" type="button">
+				<img src="./assets/images/ic-plus.svg" alt="增加">
+			</button>
+		</div>
+		<label for="message" class="form-label visually-hidden">備註</label>
+		<textarea class="form-control mb-5" id="message" rows="3" placeholder="餐點若有特殊需求，請備註在此。"></textarea>
+	</div>
+</main>
+<!--置底按鈕開始-->
+<div class="main-action bg-white">
+	<div class="container">
+		<!--未開放按鈕-->
+		<!--<button class="btn btn-lg btn-dark-gray600 w-100">非訂餐時間，17:30 開始營業</button>-->
+		<button class="btn btn-lg btn-dark-alert-color w-100" onclick="window.location.href='index.html'">加入購物車 <span>NT$155</span></button>
+	</div>
+</div>
+					<footer class="container gray700">
+    Copyright © 2023 Aritribr.All Rights Reserved <br>
+    Powered by <a href="https://goodpos.com.tw/" target="_blank" class="link-primary-color">好點 POS</a><br>
+    Version 1.0
+</footer>
+			<!-- SCRIPTS -->
+<script src="assets/js/jquery.min.js"></script>
+<script src='assets/js/jquery-ui.min.js'></script>
+<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/js/jquery.blockUI.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/script.js"></script>
+<script type="text/javascript">
+    //popover功能開啟
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    //loading畫面
+    $(document).ready(function () {
+        // 為整體區塊應用加載效果
+        $('#all').block({
+            message: $('#loading'),
+            overlayCSS: {
+                opacity: 0.1
+            }
+        });
+
+        // 1秒後解除整體區塊的加載效果
+        setTimeout(function () {
+            $('#all').unblock();
+        }, 1000);
+    });
+
+</script>
+</div>
+	</body>
+
+</html>

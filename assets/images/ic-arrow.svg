@@ -1,0 +1,8 @@
+<svg id="ic-arrow" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="ic-down-arrow" transform="translate(18 15) rotate(180)">
+    <g id="Group_7" data-name="Group 7" transform="translate(0 0)">
+      <path id="Path_46" data-name="Path 46" d="M11.843,6.108a.571.571,0,0,1-.807.022L6,1.359.964,6.13A.572.572,0,0,1,.178,5.3L5.607.157a.571.571,0,0,1,.786,0L11.822,5.3A.572.572,0,0,1,11.843,6.108Z" fill="#1f89cd" stroke="#1f89cd" stroke-width="0.5"/>
+    </g>
+  </g>
+  <rect id="Rectangle_254" data-name="Rectangle 254" width="23" height="23" fill="none"/>
+</svg>

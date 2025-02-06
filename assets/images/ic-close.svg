@@ -1,0 +1,6 @@
+<svg id="ic-close" xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <rect id="Rectangle_211" data-name="Rectangle 211" width="39" height="39" fill="none"/>
+  <g id="cross-sign" transform="translate(13 12)">
+    <path id="Path_97" data-name="Path 97" d="M13.8,1.243,12.837.288a.694.694,0,0,0-.967,0L7.046,5.112,2.131.2a.694.694,0,0,0-.967,0L.2,1.164a.694.694,0,0,0,0,.967l4.9,4.9L.288,11.87a.694.694,0,0,0,0,.967l.967.967a.694.694,0,0,0,.967,0L7.046,8.98,11.87,13.8a.694.694,0,0,0,.967,0l.967-.967a.694.694,0,0,0,0-.967L8.969,7.046l4.824-4.824A.7.7,0,0,0,13.8,1.243Z" transform="translate(0 0)" fill="#1f89cd" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>
