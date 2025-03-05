@@ -14554,10 +14554,6 @@ body {
       zoom: 1;
       min-height: 100vh; } }
 
-/*菜單定位位置調整*/
-[id^="menu"] {
-  scroll-margin-top: calc(164px / 2.6); }
-
 .container {
   padding-left: 16px;
   padding-right: 16px; }
