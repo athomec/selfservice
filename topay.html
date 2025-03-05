@@ -49,31 +49,41 @@
 				<!--頁面開始-->
 				
 <!--內容區塊開始-->
-<div class="main-pic">
-	<img src="./assets/images/demo-cover.jpg" alt="店家照片">
-</div>
-<div class="container d-flex flex-column align-items-center pt-4">
-	<h1 class="main-subtitle">食養日常自助點餐機</h1>
-    <h2 class="main-title mb-4">請選擇用餐方式</h2>
-    <div class="row w-100">
-        <div class="col-6">
-            <a href="menu.html" class="main-btn shadow-lg">
-                <div class="main-btn-up">
-                    <img src="./assets/images/ic-dinein.svg" alt="內用" class="main-btn-img">
-                    <div class="main-btn-txt">內用</div>
-                </div>
-            </a>
+<div class="container d-flex flex-column align-items-center pt-5">
+    <h1 class="main-title mt-4 mb-4">支付款項</h1>
+    <div class="main-container">
+        <div class="main-container-method mb-3">
+            <img src="./assets/images/ic-linepay.svg" alt="linepay">
+        <!--
+            ic-linepay.svg(linepay)
+            ic-credit.svg(信用卡)
+            ic-pxpay.svg(全支付)
+            ic-jkopay.svg(街口支付)
+        -->
         </div>
-        <div class="col-6">
-            <a href="menu.html" class="main-btn shadow-lg">
-                <div class="main-btn-up">
-                    <img src="./assets/images/ic-takeout.svg" alt="內用" class="main-btn-img">
-                    <div class="main-btn-txt">外帶</div>
-                </div>
-            </a>
+        <div class="main-container-number mb-4">
+            <div class="d-flex align-items-center"><img src="./assets/images/ic-details.svg" alt="icon" class="me-1">訂單金額</div>
+            <p>NT$<span>820</span></p>
+        </div>
+        <div class="main-container-txt mb-4">請掃描 LINE Pay 條碼</div>
+        <img src="./assets/images/pay-mobile.svg" alt="圖示" class="main-container-pic">
+    <!--
+        pay-mobile.svg(行動支付)
+        pay-credit.svg(信用卡支付)
+        -->
+    </div>
+    <!--置底按鈕開始-->
+    <div class="main-action" data-style="dark">
+        <div class="container">
+            <div class="action-group">
+                <button class="action-group-btn"
+                    onclick="window.location.href='payment.html'">回上一頁</button>
+                <button class="action-group-btn btn" data-bs-toggle="modal"
+                    data-bs-target="#message" onclick="window.location.href='done.html'">取消訂單</button>
+            </div>
         </div>
     </div>
-					<footer class="container primary-xlight-color footer-landing link-white ">
+					<footer class="container primary-xlight-color footer-landing link-white d-none">
     Copyright © 2023 Aritribr.All Rights Reserved <br>
     Powered by <a href="https://goodpos.com.tw/" target="_blank" class="link-white">好點 POS</a><br>
     Version 1.0

@@ -24,5 +24,12 @@ $(function () {//JS開頭
 			navContainer.scrollLeft = 0;
 		}
 	});
+	//切換菜單每列個數
+	$(".js-nav-grid3").click(function () {
+		$(this).parents(".container").find(".col-6").removeClass("col-6").addClass("col-4");
+	})
+	$(".js-nav-grid2").click(function () {
+		$(this).parents(".container").find(".col-4").removeClass("col-4").addClass("col-6");
+	})
 
 })//JS尾端	

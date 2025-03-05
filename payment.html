@@ -49,31 +49,54 @@
 				<!--頁面開始-->
 				
 <!--內容區塊開始-->
-<div class="main-pic">
-	<img src="./assets/images/demo-cover.jpg" alt="店家照片">
-</div>
-<div class="container d-flex flex-column align-items-center pt-4">
-	<h1 class="main-subtitle">食養日常自助點餐機</h1>
-    <h2 class="main-title mb-4">請選擇用餐方式</h2>
-    <div class="row w-100">
+<div class="container d-flex flex-column align-items-center pt-5">
+    <h1 class="main-title mt-4 mb-4">請選擇付款方式</h1>
+    <div class="row w-100 gy-4 mb-4">
         <div class="col-6">
-            <a href="menu.html" class="main-btn shadow-lg">
+            <a href="topay.html" class="main-btn shadow-lg">
                 <div class="main-btn-up">
-                    <img src="./assets/images/ic-dinein.svg" alt="內用" class="main-btn-img">
-                    <div class="main-btn-txt">內用</div>
+                    <img src="./assets/images/ic-linepay.svg" alt="LINE Pay" class="main-btn-img">
+                    <div class="main-btn-txt">LINE Pay</div>
                 </div>
             </a>
         </div>
         <div class="col-6">
-            <a href="menu.html" class="main-btn shadow-lg">
+            <a href="topay.html" class="main-btn shadow-lg">
                 <div class="main-btn-up">
-                    <img src="./assets/images/ic-takeout.svg" alt="內用" class="main-btn-img">
-                    <div class="main-btn-txt">外帶</div>
+                    <img src="./assets/images/ic-credit.svg" alt="信用卡" class="main-btn-img">
+                    <div class="main-btn-txt">信用卡</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-6">
+            <a href="topay.html" class="main-btn shadow-lg">
+                <div class="main-btn-up">
+                    <img src="./assets/images/ic-pxpay.svg" alt="全支付" class="main-btn-img">
+                    <div class="main-btn-txt">全支付</div>
+                </div>
+            </a>
+        </div>
+        <div class="col-6">
+            <a href="topay.html" class="main-btn shadow-lg">
+                <div class="main-btn-up">
+                    <img src="./assets/images/ic-jkopay.svg" alt="街口支付" class="main-btn-img">
+                    <div class="main-btn-txt">街口支付</div>
                 </div>
             </a>
         </div>
     </div>
-					<footer class="container primary-xlight-color footer-landing link-white ">
+    <!--置底按鈕開始-->
+    <div class="main-action" data-style="dark">
+        <div class="container">
+            <div class="action-group">
+                <button class="action-group-btn"
+                    onclick="window.location.href='index.html'">回上一頁</button>
+                <button class="action-group-btn btn" data-bs-toggle="modal"
+                    data-bs-target="#message">取消訂單</button>
+            </div>
+        </div>
+    </div>
+					<footer class="container primary-xlight-color footer-landing link-white d-none">
     Copyright © 2023 Aritribr.All Rights Reserved <br>
     Powered by <a href="https://goodpos.com.tw/" target="_blank" class="link-white">好點 POS</a><br>
     Version 1.0

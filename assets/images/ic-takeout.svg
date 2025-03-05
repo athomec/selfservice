@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path958" d="M0-682.665H77.58v77.58H0Z" transform="translate(0 682.665)" fill="#1f89cd"/>
+    </clipPath>
+  </defs>
+  <g id="ic-takeout" transform="translate(-233 -373)">
+    <g id="g948" transform="translate(234 374)">
+      <g id="g950" transform="translate(8.55 23.975)">
+        <path id="path952" d="M-287.079-62.69h23.672l-6.348-8.038h-47.784l-6.348,8.038h23.2" transform="translate(323.886 70.728)" fill="none" stroke="#1f89cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      </g>
+      <g id="g954" transform="translate(0 0)">
+        <g id="g956" clip-path="url(#clip-path)">
+          <g id="g962" transform="translate(14.894 1.515)">
+            <path id="path964" d="M-372.747-175.176h-47.791v-20.065a2.4,2.4,0,0,1,2.395-2.395h43a2.4,2.4,0,0,1,2.395,2.395Z" transform="translate(420.538 197.636)" fill="none" stroke="#1f89cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+          </g>
+          <g id="g966" transform="translate(8.55 32.013)">
+            <path id="path968" d="M-180.926,0h-23.2V44.052h60.479V0h-23.672" transform="translate(204.124)" fill="none" stroke="#1f89cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+          </g>
+          <g id="g970" transform="translate(24.311 8.6)">
+            <path id="path972" d="M-193.943-64.873h-20.775a4.091,4.091,0,0,1-4.091-4.091V-69.1a4.091,4.091,0,0,1,4.091-4.091h20.775a4.091,4.091,0,0,1,4.091,4.091v.135A4.091,4.091,0,0,1-193.943-64.873Z" transform="translate(218.809 73.19)" fill="none" stroke="#1f89cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+          </g>
+          <g id="g974" transform="translate(18.091 42.73)">
+            <path id="path976" d="M-322.9-161.448a20.615,20.615,0,0,1-4.3,12.635h-32.8a20.616,20.616,0,0,1-4.3-12.635,20.7,20.7,0,0,1,20.7-20.7A20.7,20.7,0,0,1-322.9-161.448Z" transform="translate(364.296 182.148)" fill="none" stroke="#1f89cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+          </g>
+          <g id="g978" transform="translate(42.274 55.507)">
+            <path id="path980" d="M-65.677-57.913c0,3.4-1.885,4.9-4.21,4.9s-4.21-1.493-4.21-4.9,1.885-7.425,4.21-7.425S-65.677-61.316-65.677-57.913Z" transform="translate(74.097 65.339)" fill="none" stroke="#1f89cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+          </g>
+          <g id="g982" transform="translate(46.484 67.828)">
+            <path id="path984" d="M0,0V8.237" fill="none" stroke="#1f89cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+          </g>
+          <g id="g986" transform="translate(27.113 56.123)">
+            <path id="path988" d="M0,0V6.81C0,10.57,2.083,12.3,4.653,12.3S9.306,10.57,9.306,6.81V0" fill="none" stroke="#1f89cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+          </g>
+          <g id="g990" transform="translate(31.766 58.373)">
+            <path id="path992" d="M0,0V17.692" fill="none" stroke="#1f89cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+          </g>
+          <g id="g994" transform="translate(38.791 32.013)">
+            <path id="path996" d="M0,0H0" fill="none" stroke="#1f89cd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_1960" data-name="Rectangle 1960" width="80" height="80" transform="translate(233 373)" fill="none"/>
+  </g>
+</svg>
