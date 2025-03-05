@@ -14539,17 +14539,24 @@ textarea {
   border-radius: 24px; }
 
 body {
-  font-family: Noto Sans TC, 微軟正黑體; }
+  font-family: Noto Sans TC, 微軟正黑體; }
 
 .wrapper {
-  /*點餐機放大設定*/
-  zoom: 2.6;
-  min-height: calc(100vh / 2.6); }
+  zoom: 1;
+  min-height: 100vh; }
+  @media (max-width: 1550px) {
+    .wrapper {
+      /*點餐機放大設定*/
+      zoom: 2.6;
+      min-height: calc(100vh / 2.6); } }
+  @media (max-width: 485px) {
+    .wrapper {
+      zoom: 1;
+      min-height: 100vh; } }
 
 /*菜單定位位置調整*/
 [id^="menu"] {
-  scroll-margin-top: calc(164px * 2.6);
-  /* 80px 可調整成你的 header 高度 */ }
+  scroll-margin-top: calc(164px / 2.6); }
 
 .container {
   padding-left: 16px;
@@ -14731,7 +14738,7 @@ body {
     -o-object-position: center center;
        object-position: center center; }
   .menu-list-title {
-    font-size: .6rem;
+    font-size: 0.6rem;
     font-weight: 600;
     margin-bottom: 2px;
     letter-spacing: 0; }
@@ -14855,7 +14862,8 @@ body {
     width: 125px; }
     .order-list .number-form button {
       width: 28px; }
-    .order-list .number-form button, .order-list .number-form input {
+    .order-list .number-form button,
+    .order-list .number-form input {
       height: 28px;
       font-size: 0.9rem; }
 
