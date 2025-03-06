@@ -15160,7 +15160,7 @@ footer {
       border: 1px solid #1F89CD;
       color: #fff !important;
       position: relative; }
-    .nav-link:hover {
+    .nav-link:hover, .nav-link:focus {
       color: #1F89CD; }
 
 .menu-card {

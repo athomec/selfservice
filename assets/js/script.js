@@ -41,9 +41,9 @@ $(function () {//JS開頭
 
 		if (targetElement.length) {
 			let targetOffset = targetElement.offset().top; // 取得錨點的原始位置
-			let scrollTo = targetOffset - 180; // 計算讓錨點到視口指定的滾動位置
+			let scrollTo = targetOffset - 280; // 計算讓錨點到視口指定的滾動位置
 
-			$("html, body").animate({ scrollTop: scrollTo }, 180); // 平滑滾動到指定位置
+			$("html, body").animate({ scrollTop: scrollTo }, 300); // 平滑滾動到指定位置
 		}
 	});
 
