@@ -14559,7 +14559,7 @@ body {
   padding-right: 16px; }
 
 .main {
-  margin-bottom: 72px; }
+  padding-bottom: 72px; }
   .main[data-con="menu"] {
     position: relative; }
     .main[data-con="menu"] .main-pic {

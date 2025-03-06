@@ -18,12 +18,12 @@
     <!--css設定-->
 </head>
 
-	<body id="all" data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-root-margin="0px 0px -50%"
-		data-bs-smooth-scroll="true" tabindex="0">
+	<body id="all">
 		<div id="loading" class="loading bg-white rounded-lg" style="display:none;">
 			<img src="./assets/images/loading.gif" alt="loading">
 		</div>
-		<div class="wrapper bg-primary-light-color"><!--放大內容-->
+		<div class="wrapper bg-primary-light-color" data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-root-margin="0px 0px -50%"
+			data-bs-smooth-scroll="true" tabindex="0"><!--放大內容-->
 			<!--訊息視窗開始-->
 <div class="modal fade" id="message" data-bs-keyboard="false" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
@@ -49,6 +49,7 @@
 				<!--頁面開始-->
 				
 <!--內容區塊開始-->
+<main class="main">
 <div class="main-pic">
 	<img src="./assets/images/demo-cover.jpg" alt="店家照片">
 </div>
@@ -73,6 +74,8 @@
             </a>
         </div>
     </div>
+</div>
+</main>
 					<footer class="container primary-xlight-color footer-landing link-white ">
     Copyright © 2023 Aritribr.All Rights Reserved <br>
     Powered by <a href="https://goodpos.com.tw/" target="_blank" class="link-white">好點 POS</a><br>
@@ -103,6 +106,7 @@
         setTimeout(function () {
             $('#all').unblock();
         }, 1000);
+
     });
 
 </script>

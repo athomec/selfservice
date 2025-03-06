@@ -31,21 +31,20 @@ $(function () {//JS開頭
 	$(".js-nav-grid2").click(function () {
 		$(this).parents(".container").find(".col-4").removeClass("col-4").addClass("col-6");
 	})
-	
-	//菜單定位位置調整
-	$('a[data-bs-toggle="tab"]').on('shown.bs.tab', function (e) {
-        let targetId = $(this).attr('href'); // 取得目標區塊的 ID
-        let targetElement = $(targetId);
 
-        if (targetElement.length) {
-            let offset = targetElement.offset().top; // 取得原始滾動位置
-            let zoomFactor = 2.6; // 設定你的 zoom 值
-            let adjustedOffset = offset / zoomFactor; // 修正 zoom 影響
+	//菜單定位調整
+	$(".nav-link").click(function (e) {
+		e.preventDefault(); // 阻止預設跳轉行為
 
-            $('html, body').animate({
-                scrollTop: adjustedOffset
-            }, 300); // 平滑滾動
-        }
-    });
+		let targetId = $(this).attr("href"); // 取得錨點 ID
+		let targetElement = $(targetId);
+
+		if (targetElement.length) {
+			let targetOffset = targetElement.offset().top; // 取得錨點的原始位置
+			let scrollTo = targetOffset - 180; // 計算讓錨點到視口指定的滾動位置
+
+			$("html, body").animate({ scrollTop: scrollTo }, 180); // 平滑滾動到指定位置
+		}
+	});
 
 })//JS尾端	

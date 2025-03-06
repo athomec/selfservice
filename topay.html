@@ -18,12 +18,12 @@
     <!--css設定-->
 </head>
 
-	<body id="all" data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-root-margin="0px 0px -50%"
-		data-bs-smooth-scroll="true" tabindex="0">
+	<body id="all">
 		<div id="loading" class="loading bg-white rounded-lg" style="display:none;">
 			<img src="./assets/images/loading.gif" alt="loading">
 		</div>
-		<div class="wrapper bg-primary-light-color"><!--放大內容-->
+		<div class="wrapper bg-primary-light-color" data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-root-margin="0px 0px -50%"
+			data-bs-smooth-scroll="true" tabindex="0"><!--放大內容-->
 			<!--訊息視窗開始-->
 <div class="modal fade" id="message" data-bs-keyboard="false" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
@@ -49,39 +49,42 @@
 				<!--頁面開始-->
 				
 <!--內容區塊開始-->
-<div class="container d-flex flex-column align-items-center pt-5">
-    <h1 class="main-title mt-4 mb-4">支付款項</h1>
-    <div class="main-container">
-        <div class="main-container-method mb-3">
-            <img src="./assets/images/ic-linepay.svg" alt="linepay">
-        <!--
+<main class="main">
+    <div class="container d-flex flex-column align-items-center pt-5">
+        <h1 class="main-title mt-4 mb-4">支付款項</h1>
+        <div class="main-container">
+            <div class="main-container-method mb-3">
+                <img src="./assets/images/ic-linepay.svg" alt="linepay">
+                <!--
             ic-linepay.svg(linepay)
             ic-credit.svg(信用卡)
             ic-pxpay.svg(全支付)
             ic-jkopay.svg(街口支付)
         -->
-        </div>
-        <div class="main-container-number mb-4">
-            <div class="d-flex align-items-center"><img src="./assets/images/ic-details.svg" alt="icon" class="me-1">訂單金額</div>
-            <p>NT$<span>820</span></p>
-        </div>
-        <div class="main-container-txt mb-4">請掃描 LINE Pay 條碼</div>
-        <img src="./assets/images/pay-mobile.svg" alt="圖示" class="main-container-pic">
-    <!--
+            </div>
+            <div class="main-container-number mb-4">
+                <div class="d-flex align-items-center"><img src="./assets/images/ic-details.svg" alt="icon"
+                        class="me-1">訂單金額</div>
+                <p>NT$<span>820</span></p>
+            </div>
+            <div class="main-container-txt mb-4">請掃描 LINE Pay 條碼</div>
+            <img src="./assets/images/pay-mobile.svg" alt="圖示" class="main-container-pic">
+            <!--
         pay-mobile.svg(行動支付)
         pay-credit.svg(信用卡支付)
         -->
-    </div>
-    <!--置底按鈕開始-->
-    <div class="main-action" data-style="dark">
-        <div class="container">
-            <div class="action-group">
-                <button class="action-group-btn"
-                    onclick="window.location.href='payment.html'">回上一頁</button>
-                <button class="action-group-btn btn" onclick="window.location.href='done.html'">取消訂單</button>
+        </div>
+        <!--置底按鈕開始-->
+        <div class="main-action" data-style="dark">
+            <div class="container">
+                <div class="action-group">
+                    <button class="action-group-btn" onclick="window.location.href='payment.html'">回上一頁</button>
+                    <button class="action-group-btn btn" onclick="window.location.href='done.html'">取消訂單</button>
+                </div>
             </div>
         </div>
     </div>
+</main>
 					<footer class="container primary-xlight-color footer-landing link-white ">
     Copyright © 2023 Aritribr.All Rights Reserved <br>
     Powered by <a href="https://goodpos.com.tw/" target="_blank" class="link-white">好點 POS</a><br>
@@ -112,6 +115,7 @@
         setTimeout(function () {
             $('#all').unblock();
         }, 1000);
+
     });
 
 </script>

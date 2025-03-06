@@ -18,12 +18,12 @@
     <!--css設定-->
 </head>
 
-	<body id="all" data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-root-margin="0px 0px -50%"
-		data-bs-smooth-scroll="true" tabindex="0">
+	<body id="all">
 		<div id="loading" class="loading bg-white rounded-lg" style="display:none;">
 			<img src="./assets/images/loading.gif" alt="loading">
 		</div>
-		<div class="wrapper bg-gray100"><!--放大內容-->
+		<div class="wrapper bg-gray100" data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-root-margin="0px 0px -50%"
+			data-bs-smooth-scroll="true" tabindex="0"><!--放大內容-->
 			<!--訊息視窗開始-->
 <div class="modal fade" id="message" data-bs-keyboard="false" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
@@ -602,6 +602,7 @@
         setTimeout(function () {
             $('#all').unblock();
         }, 1000);
+
     });
 
 </script>
