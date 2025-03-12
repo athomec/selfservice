@@ -31,19 +31,26 @@ $(function () {//JS開頭
 	$(".js-nav-grid2").click(function () {
 		$(this).parents(".container").find(".col-4").removeClass("col-4").addClass("col-6");
 	})
-
-	//菜單定位調整
+	
 	$(".nav-link").click(function (e) {
 		e.preventDefault(); // 阻止預設跳轉行為
-
+	
+		// 先停用現有的 scrollspy 實例
+		$('[data-bs-spy="scroll"]').scrollspy('dispose');
+	
 		let targetId = $(this).attr("href"); // 取得錨點 ID
 		let targetElement = $(targetId);
-
+	
 		if (targetElement.length) {
 			let targetOffset = targetElement.offset().top; // 取得錨點的原始位置
 			let scrollTo = targetOffset - 280; // 計算讓錨點到視口指定的滾動位置
-
+	
 			$("html, body").animate({ scrollTop: scrollTo }, 300); // 平滑滾動到指定位置
+	
+			// 重新啟用 scrollspy
+			setTimeout(function() {
+				$('[data-bs-spy="scroll"]').scrollspy();
+			}, 1000); // 等待滾動結束後再重新啟動
 		}
 	});
 
